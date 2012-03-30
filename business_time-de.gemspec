@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["christoph at olszowka de"]
   s.homepage    = "https://github.com/capita/business_time-de"
   s.summary     = %q{Pre-configures business_time gem for german holidays from 2000 until 2099}
-  s.description = s.description
+  s.description = s.summary
 
   s.rubyforge_project = "business_time-de"
 
