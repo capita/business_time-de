@@ -3,7 +3,7 @@ require 'active_support/core_ext'
 require 'business_time'
 require 'date_easter'
 
-(2000..2099).each do |year|
+(2000..2035).each do |year|
   easter_sunday = Date.easter(year)
   BusinessTime::Config.holidays << easter_sunday # Ostersonntag
   BusinessTime::Config.holidays << (easter_sunday - 2.days)  # Karfreitag

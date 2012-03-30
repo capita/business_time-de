@@ -7,7 +7,8 @@ and moving (Easter & it's friends Pfingsten and Himmelfahrt). The easter date is
 [date_easter](https://rubygems.org/gems/date_easter) gem, Pfingsten & Himmelfahrt are calculated based on that, 
 so no hard-coded values here.
 
-The holidays are defined for `(2000..2099)`, which should be sufficient.
+The holidays are defined for `(2000..2035)`, which should be sufficient (on Ruby 1.9 they can be defined much further up, but
+Times after 2037 tend to fail with `time out of range` on Ruby 1.8.7...)
 
 ## Usage
 
